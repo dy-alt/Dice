@@ -3,10 +3,11 @@
   {
       noLoop();
       size(500,500);
-      background((int)(Math.random()*256),(int)(Math.random()*256),(int)(Math.random()*256));
+      
   }
   void draw()
   {
+    background((int)(Math.random()*256),(int)(Math.random()*256),(int)(Math.random()*256));
         for(int y = 10; y <= 500; y = y+70) 
         {
           for(int x = 0; x <= 500; x = x+50)
