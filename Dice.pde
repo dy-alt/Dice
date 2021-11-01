@@ -90,7 +90,7 @@
          fill(#000000);
          rect(200,460,100, 50);
          fill(127, 0, 0);
-         textSize(20);
+         textSize(15);
          text("Total = " + total, 205, 485);
       }
   }
