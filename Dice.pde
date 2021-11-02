@@ -22,8 +22,8 @@
   }
   void mousePressed()
   {
-      redraw();
       total = 0;
+      redraw();
   }
   class Die //models one single dice cube
   {
@@ -43,25 +43,25 @@
           fill(#FFFFFF);
           if(myRoll == 1) {
             ellipse(myX+15,myY+15,10,10);
-            total = total + 1;
+           
           }
           else if(myRoll == 2) {
             ellipse(myX+10,myY+10,10,10);
             ellipse(myX+20,myY+20,10,10);
-            total = total + 2;
+           
           }
           else if(myRoll == 3) {
             ellipse(myX+10,myY+10,10,10);
             ellipse(myX+15,myY+15,10,10);
             ellipse(myX+20,myY+20,10,10);
-            total = total + 3;
+            
           }
           else if(myRoll == 4) {
             ellipse(myX+10,myY+20,10,10);
             ellipse(myX+10,myY+10,10,10);
             ellipse(myX+20,myY+20,10,10);
             ellipse(myX+20,myY+10,10,10);
-            total = total + 4;
+        
           }
           else if(myRoll == 5) {
             ellipse(myX+10,myY+20,10,10);
@@ -69,7 +69,7 @@
             ellipse(myX+20,myY+20,10,10);
             ellipse(myX+20,myY+10,10,10);
             ellipse(myX+15,myY+15,10,10);
-            total = total + 5;
+          
           }
           else{
             ellipse(myX+10,myY+10,10,10);
@@ -78,7 +78,7 @@
             ellipse(myX+20,myY+10,10,10);
             ellipse(myX+20,myY+15,10,10);
             ellipse(myX+20,myY+20,10,10);
-            total = total + 6;
+         
           }
       }
       void show()
